@@ -1,0 +1,17 @@
+#aboutContent {
+    background-color: #FFF5EB;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin-left: 40%;
+    margin-right: 40%;
+    border-top: 5px solid black;
+}

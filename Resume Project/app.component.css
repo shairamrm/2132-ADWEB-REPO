@@ -1,0 +1,26 @@
+.display-1 {
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    padding-right: 5em;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#profilePicture {
+    float: right;
+    width: 45%;
+    height: 45%;
+}
+
+.navbar-brand{
+    padding-right: 30em;
+}
+
+.lead {
+    font-size: 45%;
+}
+
+.nav-link {
+    font-size: 115%;
+    color: black;
+}
