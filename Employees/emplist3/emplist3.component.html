@@ -1,0 +1,22 @@
+<h1 style="text-align: center;">List # 3</h1>
+<div class="container">
+    <table class="table table-striped table-bordered" style="table-layout: fixed; width: 100%;">
+        <thead>
+            <tr style="text-align: center;">
+                <th><h3>ID</h3></th>
+                <th><h3>First Name</h3></th>
+                <th><h3>Last Name</h3></th>
+                <th><h3>Email</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let Employees of myEmployees">
+                <td><p class="lead">{{ Employees.id }}</p></td>
+                <td><p class="lead">{{ Employees.firstname }}</p></td>
+                <td><p class="lead">{{ Employees.lastname }}</p></td>
+                <td><p class="lead">{{ Employees.email }}</p></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- Mallari, Shaira Mella R. WD-301 -->
